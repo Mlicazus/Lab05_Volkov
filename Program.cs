@@ -78,13 +78,13 @@
 //     >= 65 => "Пенсионер"
 // }; System.Console.WriteLine(result);
 
-// Вариант 9 (25.09 я был на больничном, вариант выбрал с помощью колеса фортуны.)
-System.Console.Write("Час (0-23): ");
-int hour = int.Parse(System.Console.ReadLine());
-string result = hour switch
-{
-    >= 0 and <= 5 => "Ночной тариф",
-    >= 6 and <= 9 => "Утренний тариф",
-    >= 10 and <= 17 => "Дневной тариф",
-    >= 18 and <= 23 => "Вечерний тариф"
-}; System.Console.WriteLine(result);
+// // Вариант 9 (25.09 я был на больничном, вариант выбрал с помощью колеса фортуны.)
+// System.Console.Write("Час (0-23): ");
+// int hour = int.Parse(System.Console.ReadLine());
+// string result = hour switch
+// {
+//     >= 0 and <= 5 => "Ночной тариф",
+//     >= 6 and <= 9 => "Утренний тариф",
+//     >= 10 and <= 17 => "Дневной тариф",
+//     >= 18 and <= 23 => "Вечерний тариф"
+// }; System.Console.WriteLine(result);
