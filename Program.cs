@@ -88,3 +88,13 @@
 //     >= 10 and <= 17 => "Дневной тариф",
 //     >= 18 and <= 23 => "Вечерний тариф"
 // }; System.Console.WriteLine(result);
+
+// int number = 2;
+// string result = number switch
+// {
+//     < 0 => "Отрицательное",
+//     1 or 2 or 3 => "Маленькое число",
+//     >= 0 and <= 9 => "Однозначное",
+//     >= 10 and <= 99 => "Двузначное",
+//     >= 100 => "Трёхзначное или больше"
+// }; System.Console.WriteLine(result);
